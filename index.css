@@ -1,0 +1,315 @@
+/* Reset some default margin and padding for the body and header */
+body,
+header {
+    margin: 0;
+    padding: 0;
+    background-color: #d8dad6;
+    color: #e6e5e0;
+}
+
+@font-face {
+    font-family: Gel;
+    src: url(GeraldtonLight.otf);
+}
+
+
+/* Define the black header style */
+.black-header {
+    background-color: #252528;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    /* You can adjust the padding to your preference */
+    z-index: 1;
+}
+
+/* Style the navigation links */
+.black-header ul {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.black-header li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.black-header a {
+    text-decoration: none;
+    color: white;
+}
+
+.black-header a:hover {
+    text-decoration: underline;
+}
+
+/* Remove margin and padding from the ul and li elements */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the list items (li) */
+li {
+    margin-right: 10px;
+    /* Add spacing between list items */
+    display: inline;
+    font-family: Gel;
+}
+
+/* Style the header to align the list to the left */
+.black-header {
+    display: flex;
+    /* Use flexbox for alignment */
+    justify-content: flex-start;
+    /* Align the content to the left */
+    align-items: center;
+    /* Center vertically within the header */
+    z-index: 1;
+}
+
+/* Style the image in the list */
+.header-logo img {
+    max-width: 100px;
+    /* Adjust the maximum width as needed */
+    height: auto;
+    /* To maintain the aspect ratio */
+}
+
+.active {
+    text-decoration: underline #c9343f;
+}
+
+h1 {
+    color: #252528;
+    font-size: 100px;
+}
+
+#into {
+    width: 100%;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+/* Style the image inside the banner */
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lora';
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.small-text {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.large-text {
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(128, 128, 128, 0.25);
+    /* Grey color with 50% opacity */
+    z-index: 1;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.video {
+    text-align: center;
+    border: #c9343f;
+}
+
+.text {
+    text-align: left;
+    border: #c9343f;
+}
+
+p {
+    color: #252528;
+}
+
+h2 {
+    color: #252528;
+    font-size: 50px;
+    font-family: 'Lora';
+}
+
+
+
+.text {
+    font-family: Gel;
+    font-size: 25px;
+}
+
+
+
+.time {
+    height: 456px;
+    width: 20%;
+    border: 2px solid #252528;
+}
+
+.master {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto 10px;
+}
+
+.uno {
+    flex: 0 0 auto;
+    /* Maintain the size of "uno" */
+}
+
+.dos {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 2px solid #252528;
+    height: 459px;
+
+    text-align: center;
+}
+
+.tres {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 2px solid #252528;
+    height: 459px;
+
+    text-align: center;
+}
+
+.uno {
+    /* By default, take the full width of the viewport */
+    max-width: 816px;
+    /* Set a maximum width for the element */
+}
+
+
+
+.uno {
+    width: 100%;
+    /* Take the full width of the .master div */
+}
+
+.dos {
+    width: 20%;
+    /* Use a percentage width for .dos */
+}
+
+.tres {
+    width: 20%;
+    /* Use a percentage width for .tres */
+}
+
+.master {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    /* Allow the .master div to shrink as the viewport size decreases */
+    margin: 0 auto;
+    /* Center the .master div horizontally */
+    padding: 0 10px;
+    /* Optional padding for spacing */
+}
+
+
+
+.dos {
+    flex: 1;
+    /* Flex-grow property allows .dos to grow and shrink proportionally */
+}
+
+.tres {
+    flex: 1;
+    /* Flex-grow property allows .tres to grow and shrink proportionally */
+}
+
+
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio (16/9 = 1.7777) */
+    width: 100%;
+    /* Full width within .uno element */
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.dos,
+.tres {
+    flex: 0;
+    /* Don't allow .dos and .tres to grow, they will maintain their content size */
+    max-width: 20%;
+    /* Set a maximum width to prevent overlap */
+}
+
+.uno {
+    flex: 1;
+    /* Allow .uno to grow and fill up all remaining space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio (16/9 = 1.7777) */
+    width: 100%;
+    /* Full width within .uno element */
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
