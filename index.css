@@ -3,7 +3,7 @@ body,
 header {
     margin: 0;
     padding: 0;
-    background-color: #d8dad6;
+    background-color: #f5ecdd;
     color: #e6e5e0;
 }
 
@@ -15,7 +15,7 @@ header {
 
 /* Define the black header style */
 .black-header {
-    background-color: #252528;
+    background-color: #2f2e2e;
     color: white;
     text-align: center;
     padding: 20px;
@@ -81,11 +81,11 @@ li {
 }
 
 .active {
-    text-decoration: underline #c9343f;
+    text-decoration: underline #c2434b;
 }
 
 h1 {
-    color: #252528;
+    color: #2f2e2e;
     font-size: 100px;
 }
 
@@ -142,8 +142,8 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(128, 128, 128, 0.25);
-    /* Grey color with 50% opacity */
+    background: rgb(245,236,221,0.1);
+ 
     z-index: 1;
 }
 
@@ -153,20 +153,20 @@ h1 {
 
 .video {
     text-align: center;
-    border: #c9343f;
+    border: #c2434b;
 }
 
 .text {
     text-align: left;
-    border: #c9343f;
+    border: #c2434b;
 }
 
 p {
-    color: #252528;
+    color: #2f2e2e;
 }
 
 h2 {
-    color: #252528;
+    color: #2f2e2e;
     font-size: 50px;
     font-family: 'Lora';
 }
@@ -183,7 +183,7 @@ h2 {
 .time {
     height: 456px;
     width: 20%;
-    border: 2px solid #252528;
+    border: 2px solid #2f2e2e;
 }
 
 .master {
@@ -203,7 +203,7 @@ h2 {
     position: absolute;
     left: 0;
     top: 0;
-    border: 2px solid #252528;
+    border: 2px solid #2f2e2e;
     height: 459px;
 
     text-align: center;
@@ -213,7 +213,7 @@ h2 {
     position: absolute;
     right: 0;
     top: 0;
-    border: 2px solid #252528;
+    border: 2px solid #2f2e2e;
     height: 459px;
 
     text-align: center;
@@ -319,7 +319,7 @@ h2 {
 .bar {
     width: 100%;
     height:  45px;
-    background-color: #c9343f;
+    background-color: #c2434b;
     font-size: 25px;
     font-family: Gel;
     text-align: center;
@@ -328,13 +328,13 @@ h2 {
     align-items: center; /* Center vertically */
     position: absolute;
     z-index: 0;
-    color: #d8dad6;
+    color: #f5ecdd;
     }
 
 .text{
     width: 100%;
     text-align: center;
-    color: #d8dad6;
+    color: #f5ecdd;
    
 }
 
@@ -346,33 +346,37 @@ h2 {
 
 .bar2 {
     width: 100%;
-    height: 325px;
-    background-color: #252528;
+    height: 400px;
+    background-color: #2f2e2e;
     text-align: center;
     justify-content: center;
 
 }
 
 .b1 {
-    border: 5px solid #d8dad6;
-    border-radius: 5px;
-    height: 300px;
-    width: 200px;
+    border: 5px solid #f5ecdd;
+    border-radius: 10px;
+    height: 375px;
+    width: 300px;
     margin: 10px;
 }
 .b2 {
-    border: 5px solid #d8dad6;
-    border-radius: 5px;
-    height: 300px;
-    width: 200px;
+    border: 5px solid #f5ecdd;
+    border-radius: 10px;
+    height: 375px;
+    width: 300px;
     margin: 10px;
 }
 .b3 {
-    border: 5px solid #d8dad6;
-    border-radius: 5px;
-    height: 300px;
-    width: 200px;
+    border: 5px solid #f5ecdd;
+    border-radius: 10px;
+    height: 375px;
+    width: 300px;
     margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
 }
 
 #bar {
@@ -385,4 +389,9 @@ h2 {
     align-content: center;
     justify-self: center;
     margin: 0 auto;
+}
+
+#calimg {
+    width: 60%;
+    
 }

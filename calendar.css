@@ -3,7 +3,7 @@ body,
 header {
     margin: 0;
     padding: 0;
-    background-color: #d8dad6;
+    background-color: #f5ecdd;
     color: #e6e5e0;
 }
 
@@ -15,7 +15,7 @@ header {
 
 /* Define the black header style */
 .black-header {
-    background-color: #252528;
+    background-color: #2f2e2e;
     color: white;
     text-align: center;
     padding: 20px;
@@ -81,11 +81,11 @@ li {
 }
 
 .active {
-    text-decoration: underline #c9343f;
+    text-decoration: underline #c2434b;
 }
 
 h1 {
-    color: #252528;
+    color: #2f2e2e;
     font-size: 100px;
 }
 
@@ -99,7 +99,7 @@ h1 {
     text-align: center;
     display: block;
     text-align: center;
-    border: 5px solid #252528;
+    border: 5px solid #2f2e2e;
 }
 
 .calout{

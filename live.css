@@ -2149,12 +2149,12 @@ html {
   }
   
   .navbar {
-    background-color: #252528;
+    background-color: #2f2e2e;
   }
 
   
   .nav-menu {
-    color: #d8dad6;
+    color: #f5ecdd;
     -webkit-text-stroke-width: 0px;
   }
 
@@ -2163,7 +2163,7 @@ body,
 header {
     margin: 0;
     padding: 0;
-    background-color: #d8dad6;
+    background-color: #f5ecdd;
     color: #e6e5e0;
 }
 
@@ -2175,7 +2175,7 @@ header {
 
 /* Define the black header style */
 .black-header {
-    background-color: #252528;
+    background-color: #2f2e2e;
     color: white;
     text-align: center;
     padding: 20px;
@@ -2239,18 +2239,18 @@ li {
 }
 
 .active {
-    text-decoration: underline #c9343f;
+    text-decoration: underline #c2434b;
 }
 
 .container-4, .container-3 {
-    border: 5px solid #252528;
-    color:#252528;
+    border: 5px solid #2f2e2e;
+    color:#2f2e2e;
     font-family: Gel;
 }
 
 .body {
-  color: #d8dad6;
-  background-color: #d8dad6;
+  color: #f5ecdd;
+  background-color: #f5ecdd;
   font-family: Gel;
 }
 
@@ -2261,7 +2261,7 @@ li {
     justify-content: space-evenly;  
     /* flex-flow: column; */ 
     flex-direction: column; 
-    background-image: url(ezgif.com-gif-maker.gif); 
+    background-image: url(resources/ezgif.com-gif-maker.gif); 
     background-size: cover;
 
   }
@@ -2272,7 +2272,7 @@ li {
     order:0;
     flex-grow:0;
     align-self:center;
-    text-decoration: underline #c9343f;
+    text-decoration: underline #c2434b;
   }
 			
   .item2 { 
@@ -2304,7 +2304,7 @@ li {
   order:-1;
   flex-grow:0;
   align-self: center;
-  text-decoration: underline #c9343f;
+  text-decoration: underline #c2434b;
   
 }
 
