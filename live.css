@@ -2151,11 +2151,7 @@ html {
   .navbar {
     background-color: #252528;
   }
-  
-  .body {
-    color: #d8dad6;
-    background-color: #d8dad6;
-  }
+
   
   .nav-menu {
     color: #d8dad6;
@@ -2252,13 +2248,21 @@ li {
     font-family: Gel;
 }
 
-.container-4 {
+.body {
+  color: #d8dad6;
+  background-color: #d8dad6;
+  font-family: Gel;
+}
+
+.container-4, .container-3 {
 
     display: flex;
     
     justify-content: space-evenly;  
     /* flex-flow: column; */ 
-    flex-direction: column;  
+    flex-direction: column; 
+    background-image: url(ezgif.com-gif-maker.gif); 
+    background-size: cover;
 
   }
 
@@ -2268,6 +2272,7 @@ li {
     order:0;
     flex-grow:0;
     align-self:center;
+    text-decoration: underline #c9343f;
   }
 			
   .item2 { 
@@ -2293,3 +2298,13 @@ li {
 .out {
   padding: 7px;
 }
+
+.item12 { 
+  /* flex:0 1 auto; */
+  order:-1;
+  flex-grow:0;
+  align-self: center;
+  text-decoration: underline #c9343f;
+  
+}
+

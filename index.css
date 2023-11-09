@@ -21,6 +21,8 @@ header {
     padding: 20px;
     /* You can adjust the padding to your preference */
     z-index: 1;
+    position: relative;
+    z-index: 1;
 }
 
 /* Style the navigation links */
@@ -94,7 +96,7 @@ h1 {
 .banner {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 600px;
     overflow: hidden;
 }
 
@@ -312,4 +314,75 @@ h2 {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.bar {
+    width: 100%;
+    height:  45px;
+    background-color: #c9343f;
+    font-size: 25px;
+    font-family: Gel;
+    text-align: center;
+    margin-top: 0px;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center vertically */
+    position: absolute;
+    z-index: 0;
+    color: #d8dad6;
+    }
+
+.text{
+    width: 100%;
+    text-align: center;
+    color: #d8dad6;
+   
+}
+
+#cam {
+    width: auto;
+    height: 25px;
+    
+}
+
+.bar2 {
+    width: 100%;
+    height: 325px;
+    background-color: #252528;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.b1 {
+    border: 5px solid #d8dad6;
+    border-radius: 5px;
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+}
+.b2 {
+    border: 5px solid #d8dad6;
+    border-radius: 5px;
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+}
+.b3 {
+    border: 5px solid #d8dad6;
+    border-radius: 5px;
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+}
+
+#bar {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+    justify-self: center;
+    margin: 0 auto;
 }
