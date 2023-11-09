@@ -1,0 +1,111 @@
+/* Reset some default margin and padding for the body and header */
+body,
+header {
+    margin: 0;
+    padding: 0;
+    background-color: #d8dad6;
+    color: #e6e5e0;
+}
+
+@font-face {
+    font-family: Gel;
+    src: url(GeraldtonLight.otf);
+}
+
+
+/* Define the black header style */
+.black-header {
+    background-color: #252528;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    /* You can adjust the padding to your preference */
+    z-index: 1;
+    position: relative;
+    z-index: 1;
+}
+
+/* Style the navigation links */
+.black-header ul {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.black-header li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.black-header a {
+    text-decoration: none;
+    color: white;
+}
+
+.black-header a:hover {
+    text-decoration: underline;
+}
+
+/* Remove margin and padding from the ul and li elements */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the list items (li) */
+li {
+    margin-right: 10px;
+    /* Add spacing between list items */
+    display: inline;
+    font-family: Gel;
+}
+
+/* Style the header to align the list to the left */
+.black-header {
+    display: flex;
+    /* Use flexbox for alignment */
+    justify-content: flex-start;
+    /* Align the content to the left */
+    align-items: center;
+    /* Center vertically within the header */
+    z-index: 1;
+}
+
+/* Style the image in the list */
+.header-logo img {
+    max-width: 100px;
+    /* Adjust the maximum width as needed */
+    height: auto;
+    /* To maintain the aspect ratio */
+}
+
+.active {
+    text-decoration: underline #c9343f;
+}
+
+h1 {
+    color: #252528;
+    font-size: 100px;
+}
+
+#into {
+    width: 100%;
+}
+
+.cal {
+    height: auto;
+    width: 75%;
+    text-align: center;
+    display: block;
+    text-align: center;
+    border: 5px solid #252528;
+}
+
+.calout{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
